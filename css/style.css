@@ -1,0 +1,59 @@
+.container,.row{
+    border:2px solid black; 
+}
+
+
+
+/* Call us header CSS styling */
+#nav-bar-line{
+    background-color: black;
+}
+
+#call-us-heading{
+    font-size:x-large;
+    color:grey;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+#call-us-heading img{
+    width: 30px;
+}
+#call-us-heading span{
+    font-weight: bold;
+    background-color: fac310;
+    margin-left: 10px;    
+}
+.blink{
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: #000;
+}
+
+/* Navbar Styling */
+.navbar-toggler-icon{
+    color: #fac310;
+}
+#navbarNavDropdown{
+    margin-left: 9%;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;    
+    
+}
+#navbarNavDropdown a{
+    color: white;
+    font-size: small;
+    padding-right: 20px;
+}
+#dropdown-list a{
+    background-color: black;
+}
+#navbarNavDropdown a:hover{
+    background-color: #fac310;
+}
+#nav-search-box{
+    margin-right: 9%;
+}
+
+#nav-search-box-icon{
+    color: #fac310 ;
+}
