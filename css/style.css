@@ -1,15 +1,20 @@
 .container,.row{
-    border:2px solid black; 
+    /* border:2px solid black;  */
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
-
-/* Call us header CSS styling */
+/* ///////////////////////////////////////////////////Call us header CSS styling */
 #nav-bar-line{
     background-color: black;
 }
 
 #call-us-heading{
+    /* border: 2px solid black; */
     font-size:x-large;
     color:grey;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -30,9 +35,10 @@
     color: #000;
 }
 
-/* Navbar Styling */
-.navbar-toggler-icon{
-    color: #fac310;
+/*/////////////////////////////////////////////////// Navbar Styling */
+
+button.navbar-toggler{
+    color    : #fac310 !important;
 }
 #navbarNavDropdown{
     margin-left: 9%;
@@ -43,6 +49,9 @@
     color: white;
     font-size: small;
     padding-right: 20px;
+}
+#dropdown-list{
+    padding: 0px;
 }
 #dropdown-list a{
     background-color: black;
@@ -56,4 +65,73 @@
 
 #nav-search-box-icon{
     color: #fac310 ;
+}
+
+
+/* /////////////////////////////////////////////////Crousel CSS */
+
+button.carousel-control-prev{
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 3%;
+}
+button.carousel-control-next{
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-right: 3%;
+}
+
+.comment-crousel-arrows{
+    background-color: black !important;
+}
+#comment-crousel-arrow-left{
+    margin-left: -78px;
+}
+#comment-crousel-arrows-right{
+    margin-right: -78px;    
+}
+
+
+/* ////////////////////////////////////////////////Our Services */
+
+#our-services{
+    background-color: #fac310;
+    padding-bottom: 50px;
+    height:750px;
+}
+#our-services .card {
+    margin-top: 50px;
+    border-radius: 30px;
+    height: 400px;
+    background-color: white;
+}
+#section-heading{
+    padding-top: 75px;
+    font-weight: bold ;
+}
+
+.service-icons-container{
+    height: 150px;
+    text-align: center;
+}
+.services-icons{
+    width: 50%;
+    height: 79%;
+    margin: auto;
+    border-radius: 58px;
+    background-color: #DC143e;
+    color: white;
+    padding-top: 22px;
+    margin-top: 12px;
+}
+
+
+/* /////////////////////////////////////Q and A Section CSS  */
+
+#qAndaSection{
+    height:max-content;
 }

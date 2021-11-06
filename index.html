@@ -22,91 +22,251 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <!-- logo and Call us Header Start -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="#home">
-                        <img class="logo" src="img/logo.png" alt="Logo" width="218" height="124">
-                    </a>
-                </div>
-                <div class="col-md-6"></div>
-                <div class="col-md-3">
-                    <h4 id="call-us-heading" class="mt-4">Call us on &nbsp; &nbsp;
-                        <img src="img/WhatsApp_Icon.png" alt="Whatsapp">
-                        <img src="img/web-viber-icon.png" alt="web-viber">
-                        </br>
-                        <span class="blink">+34 602 104 219</span>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <!-- logo and Call us Header Ends -->
-
-        <!-- Navbar Starts -->
-        <nav class="navbar navbar-expand-lg mt-4" id="nav-bar-line">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            SERVICES
+        <header>
+            <div class="container mt-3 pl-5">
+                <div class="row">
+                    <div class="col-md-6 col-10" id="logo">
+                        <a href="#home">
+                            <img class="logo" src="img/logo.png" alt="Logo" width="218" height="124">
                         </a>
-                        <div class="dropdown-menu" id="dropdown-list" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Andorra Transfers – Barcelona</a>
-                            <a class="dropdown-item" href="#">Airport Pickup</a>
-                            <a class="dropdown-item" href="#">Barcelona Airport Transfer</a>
-                            <a class="dropdown-item" href="#">PortAventura Transfer</a>
-                            <a class="dropdown-item" href="#">Train and Bus Stations</a>
-                            <a class="dropdown-item" href="#">Taxi Barcelona</a>
-                            <a class="dropdown-item" href="#">Barcelona Transfers To City Centre</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BOOKING</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SITEMAP</a>
-                    </li>
-                </ul>
-
-                <form class="form-inline" id="nav-search-box">
-                    
-                    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-                    <div class="input-group mb-2 mr-sm-2">
-                        <input type="search" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Search">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text" id="nav-search-box-icon"><i class="fas fa-search"></i></div>
-                        </div>
                     </div>
-                </form>
+                    <div class="col-md-6 col-lg-4 col-10 offset-lg-2">
+                        <h4 id="call-us-heading" class="mt-4">Call us on &nbsp; &nbsp;
+                            <img src="img/WhatsApp_Icon.png" alt="Whatsapp">
+                            <img src="img/web-viber-icon.png" alt="web-viber">
+                            </br>
+                            <span class="blink">+34 602 104 219</span>
+                        </h4>
+                    </div>
+                </div>
             </div>
-        </nav>
+            <!-- logo and Call us Header Ends -->
+
+            <!-- Navbar Starts -->
+            <nav class="navbar navbar-expand-lg mt-4" id="nav-bar-line">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                SERVICES
+                            </a>
+                            <div class="dropdown-menu" id="dropdown-list" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Andorra Transfers – Barcelona</a>
+                                <a class="dropdown-item" href="#">Airport Pickup</a>
+                                <a class="dropdown-item" href="#">Barcelona Airport Transfer</a>
+                                <a class="dropdown-item" href="#">PortAventura Transfer</a>
+                                <a class="dropdown-item" href="#">Train and Bus Stations</a>
+                                <a class="dropdown-item" href="#">Taxi Barcelona</a>
+                                <a class="dropdown-item" href="#">Barcelona Transfers To City Centre</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BOOKING</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SITEMAP</a>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline ml-auto" id="nav-search-box">
+
+                        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <input type="search" class="form-control" id="inlineFormInputGroupUsername2"
+                                placeholder="Search">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="nav-search-box-icon"><i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </header>
 
 
 
     </header>
+
+    <section id="crousel-section">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/cover.jpg" class="d-block img-fluid w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Air Port Transfer</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cover.jpg" class="d-block img-fluid w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Car Hire For The Selective</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="our-services">
+        <h1 id="section-heading" class="text-center">Our Servies</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-10 m-auto d-block">
+                    <div class="card shadow-lg">
+                        <div class="service-icons-container">
+                            <i class="fa fa-tachometer fa-4x services-icons"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Fast & Safe</h5>
+                            <p class="card-text text-center"> Come and join us for your fast & safe journey. Make your
+                                journey memorable with Taxi Services Barcelona. Memorable journey with Luxurious
+                                Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-10 m-auto d-block">
+                    <div class="card shadow-lg">
+                        <div class="service-icons-container">
+                            <i class="far fa-money-bill-alt fa-4x services-icons"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Best Prices</h5>
+                            <p class="card-text text-center"> Best Price To Start A Luxurious Journey In Barcelona With
+                                Taxi Services Barcelona. Transfer From Airport & City To anywhere in Barcelona</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-10 m-auto d-block">
+                    <div class="card shadow-lg">
+                        <div class="service-icons-container">
+                            <i class="fa fa-plane fa-4x services-icons"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Airport Transfer</h5>
+                            <p class="card-text text-center"> Book Taxi Services Barcelona offers high quality on
+                                Barcelona airport transfers Services, door to door transfers from Barcelona airport to
+                                your destination.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-10 m-auto d-block">
+                    <div class="card shadow-lg">
+                        <div class="service-icons-container">
+                            <i class="fa fa-calendar fa-4x services-icons"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Book Online</h5>
+                            <p class="card-text text-center">Book Taxi Services Barcelona offers high quality on
+                                Barcelona airport transfers Services, door to door transfers from Barcelona airport to
+                                your destination.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="qAndaSection">
+        <h1 id="section-heading" class="text-center">Taxi Services in Barcelona</h1>
+        <div class="container mt-5">
+            <h5>Do you need a Taxi in Barcelona?</h5>
+            <p>The provision of services and groups of individual effective taxi from Barcelona airport to the city,
+                airport transfers, and the transfer from the airport to the port of Barcelona and taxi tours in
+                Barcelona’s city center with cheap rates.</p>
+            <h5>Barcelona Airport Transfer Guaranteed Lowest Rates:</h5>
+            <p>Limited Time offer: You will not get this type of opportunity again. Private transfer from Barcelona
+                airport to the city center for 4 people with 3 bags, with Meet & Greet service from only 29 €. Upgrade
+                to Mercedes E Class return for reservations FREE! We are also providing online Booking Services.</p>
+            <h5>We Will Arrange Taxi For You With In One Hour.</h5>
+            <p>Reserve your taxi up to one hour before your arrival at the airport, your transportation will be
+                organized in just one hour. Do you need tomorrow early morning taxi to the airport? Book online now.
+                We’ll be there on time! We are providing our best services. No complain from last 6 years.</p>
+            <p>If you are going your holidays in Barcelona then we have some plan for you We offer guided tours to
+                discover the city in a comprehensive manner. Take a look at our guided tours.</p>
+            <p>Our Customer are most precious things for us. We will never compromise with our services.</p>
+            <p>Our Services At A Glance: www.taxiservicebarcelona.com</p>
+            <p>The booking service Taxiservicebarcelona with all the guarantees of an official of the taxi company,
+                without waiting or queuing, using only vehicles authorized by local transport at a per-determined price
+                and no surprises.</p>
+            <p>Enjoy a quality online services, collection and Priority flat rate, so you do not worry at all.</p>
+
+            <h2>What Our Clients Say About Us</h2>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <p>Thank you very much for your good service. I really liked the driver. He was a great guy and
+                            was very polite. You should definitely have more people like him. Thank you once again for
+                            your service. Definitely looking forward to availing your service again.</p>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <p>I am regular customer of TaxiServicesBarcelona service. I am using this service since last
+                            3-4 months now. So far it is great. They are always on time, their billing is very prompt
+                            and always accurate. Their drivers are friendly and drive safely. I will highly recommend
+                            this service to others.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>
+                            Just a quick note to say thank you for the cars you supplied for our trip last week. My
+                            colleagues were very complimentary about the driver they had and everything went to plan.
+                            We’ll certainly use you again when we’re in town.
+                        </p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev comment-crousel-arrows" id="comment-crousel-arrow-left" type="button" data-target="#carouselExampleInterval"
+                    data-slide="prev">
+                    <i class="fas fa-hand-point-left"></i>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next comment-crousel-arrows" id="comment-crousel-arrows-right" type="button" data-target="#carouselExampleInterval"
+                    data-slide="next">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
 </body>
 
 </html>
