@@ -1,32 +1,71 @@
 @media (max-width:329px) {
-    #our-services{
+    #our-services,
+    #include-services,
+    #booking-form-section,
+    #call-us-section{
         height:max-content;
+    }
+    .fa.fa-mail-forward{
+        font-size: 0.2rem;
+    }
+    #include-services li{
+        font-size: 0.6rem;
+    }
+    #include-services h2{
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width:413px) and (min-width:330px) {
-    #our-services{
+    #our-services,
+    #include-services,
+    #booking-form-section,
+    #call-us-section{
         height:max-content;
     }
     .services-icons{
         width: 43%;
     }
+    .fa.fa-mail-forward{
+        font-size: 0.3rem;
+    }
+    #include-services li{
+        font-size: 0.7rem;
+    }
 }  
 @media (min-width:413px) and (max-width: 480px){
-    #our-services{
+    #our-services,
+    #include-services,
+    #booking-form-section,
+    #call-us-section{
         height:max-content;
     }
     .services-icons{
         width: 36%;
     }
+    .fa.fa-mail-forward{
+        font-size: 0.6rem;
+    }
+    #include-services li{
+        font-size: 0.8rem;
+    }
 }
 /* ////////////////////////////////////small */
 @media (min-width:481px) and (max-width: 576px){
-    #our-services{
+    #our-services,
+    #include-services,
+    #booking-form-section,
+    #call-us-section{
         height:max-content;
     }
     .services-icons{
         width: 30%;
+    }
+    .fa.fa-mail-forward{
+        font-size: 0.9rem;
+    }
+    #include-services li{
+        font-size: 0.8rem;
     }
   }
   /* //////////////////////////////////Medium */
@@ -40,11 +79,19 @@
     #nav-search-box{
         width: 80%;
     }
-    #our-services{
+    #our-services,
+    #include-services,
+    #booking-form-section{
         height:max-content;
     }
     .services-icons{
         width: 23%;
+    }
+    .fa.fa-mail-forward{
+        font-size: 1rem;
+    }
+    #include-services li{
+        font-size: 0.9rem;
     }
 
   }
@@ -53,12 +100,28 @@
     .services-icons{
         width: 35%;
     }
-    #our-services{
+    #our-services,
+    #include-services{
         height:max-content;
+    }
+    .fa.fa-mail-forward{
+        font-size: 0.8rem;
+    }
+    #include-services li{
+        font-size: 0.7rem;
     }
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) and (max-width: 1200px){
+    #include-services{
+        height: max-content;
+    }
+    .fa.fa-mail-forward{
+        font-size: 1rem;
+    }
+    #include-services li{
+        font-size: 0.9rem;
+    }
   }
   
   

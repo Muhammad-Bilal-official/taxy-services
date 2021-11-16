@@ -1,6 +1,6 @@
-.container,.row{
-    /* border:2px solid black;  */
-}
+/* .container,.row{
+        border:2px solid black;  
+} */
 
 *{
     padding: 0px;
@@ -58,6 +58,7 @@ button.navbar-toggler{
 }
 #navbarNavDropdown a:hover{
     background-color: #fac310;
+    border-radius: 10px;
 }
 #nav-search-box{
     margin-right: 9%;
@@ -70,30 +71,42 @@ button.navbar-toggler{
 
 /* /////////////////////////////////////////////////Crousel CSS */
 
+#crousel-section{
+    opacity: 0.7;
+}
+#crousel-section img{
+    height: 70vh;
+}
 button.carousel-control-prev{
-    background: transparent;
+    background: black;
     width: 50px;
     height: 50px;
     margin: auto;
     margin-left: 3%;
+    border-radius: 25px;
+    opacity: 0.5;
 }
 button.carousel-control-next{
-    background: transparent;
+    background: black;
     width: 50px;
     height: 50px;
     margin: auto;
     margin-right: 3%;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+#crousel-section h1,
+#crousel-section p{
+    background-color: rgb(0, 0, 0,0.6); 
+    width:max-content;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+#crousel-section p{
+    font-size: 1.5rem;
 }
 
-.comment-crousel-arrows{
-    background-color: black !important;
-}
-#comment-crousel-arrow-left{
-    margin-left: -78px;
-}
-#comment-crousel-arrows-right{
-    margin-right: -78px;    
-}
 
 
 /* ////////////////////////////////////////////////Our Services */
@@ -134,4 +147,127 @@ button.carousel-control-next{
 
 #qAndaSection{
     height:max-content;
+}
+.comment-crousel-arrows{
+    background-color: black !important;
+}
+#comment-crousel-arrow-left{
+    margin-left: -78px;
+}
+#comment-crousel-arrows-right{
+    margin-right: -78px;    
+}
+#message-box-carousel{
+    border: 2px solid black;
+    padding: 17px;
+    border-radius: 40px;
+    background-color: #F9F9F9;
+}
+
+/* /////////////////////////////////////Our Services Include section */
+
+#include-services{
+    background-color: #fac310;
+    padding-bottom: 50px;
+    height:500px;
+    color: white;
+}
+.fa.fa-mail-forward{
+    font-size: 1.3rem;
+}
+#include-services li{
+    font-size: 1.2rem;
+}
+/* //////////////////////////////////////call-us-section CSS */
+#call-us-section{
+    background-color: lightgray;
+    padding-bottom: 50px;
+    height:250px;
+    padding-top: 75px;
+}
+.btn-lg{
+    background-color: #fac310;
+}
+
+/* //////////////////////////////////////Booking Form Section CSS */
+
+#booking-form-section{
+    background-color: #fac310;
+    padding-bottom: 50px;
+    height:550px;
+    color: white;
+}
+
+/* ////////////////////////////////////////Upper Footer CSS  */
+#upper-footer{
+    background-color: #404040;
+    color: white;
+}
+.contactDetailFavIcons{
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #fac310;
+    padding: 10px;
+    border-radius: 50px;
+}
+#upper-footer li{
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+#upper-footer .list-group-item{
+    background-color: #404040 ;
+}
+#upper-footer .list-group-item a{
+    color: #999999;
+    padding: 10px;
+}
+#upper-footer .list-group-item:hover{
+    background-color: #fac310;
+    cursor: pointer;
+}
+#upper-footer .list-group-item a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.line{
+    margin: 0 0 35px;
+
+}
+.left-line{
+    float: left;
+    width: 20%;
+    height: 2px;
+    background: #fac310;
+}
+.right-line{
+    float: right;
+    width: 80%;
+    height: 1px;
+    background: #e1e1e1;
+}
+.calender-line{
+    margin: 0 0 25px;
+
+}
+.prev-button,
+.next-button{
+    color: grey;
+}
+.today-button{
+    color: white;
+}
+.month-label,
+.year-label{
+    font-weight: lighter;
+}
+
+/* ////////////////////////////////////////Lower Footer CSS  */
+
+#lower-footer{
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+}
 }
