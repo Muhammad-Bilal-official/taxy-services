@@ -270,4 +270,46 @@ button.carousel-control-next{
     color: white;
     font-weight: lighter;
 }
+
+
+/* ///////////////////////////////////////About Page CSS */
+
+
+
+/* ///////////////////////////////////////Services Section CSS  */
+
+#card-row .card{
+    margin-top: 50px;
+}
+.card-img-top{
+    padding: 10px;
+}
+#head-links-span{
+    text-align: left;
+}
+.card-head-links{
+    display: inline;
+    padding:0px 5px;
+    color: #999999;
+    font-size: 0.8rem;
+}
+.card-head-links:hover{
+    color: #fac310;
+    text-decoration: none;
+}
+.card-title{
+    font-size: 1.3rem;
+    letter-spacing: -0.1ch;
+}
+.card-text{
+    letter-spacing: -0.1ch;
+}
+.card-readmMre-link{
+    display: block;
+    text-align: right;
+    color:#1c1c1c;
+}
+.card-readmMre-link:hover{
+    color: #fac310;
+    text-decoration: none;
 }

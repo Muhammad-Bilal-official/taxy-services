@@ -49,9 +49,15 @@
     #include-services li{
         font-size: 0.8rem;
     }
+    .col-10{
+    margin: auto;
+    }
 }
 /* ////////////////////////////////////small */
 @media (min-width:481px) and (max-width: 576px){
+    #main-header #logo{
+        text-align: center !important;
+    }
     #our-services,
     #include-services,
     #booking-form-section,

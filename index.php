@@ -1,117 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Airport Taxi Services Barcelona Spain | Fast & Safe Journey</title>
-
-    <!-- Style Sheets  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/calender-theme.css">
-    <link rel="stylesheet" href="css/calender.css">
-
-    <!-- Javascript Files  -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
-    <script src="js/calendar.min.js"></script>
-    <script src="js/index.js"></script>
-
-    <title>Document</title>
-</head>
-
-<body>
-    <header>
-        <!-- logo and Call us Header Start -->
-        <header>
-            <div class="container mt-2 pl-5">
-                <div class="row">
-                    <div class="col-lg-8 col-md-6 col-12 float-md-left" id="logo">
-                        <a href="#home">
-                            <img class="logo" src="img/logo.png" alt="Logo" width="218" height="124">
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12 float-md-right text-center">
-                        <h4 id="call-us-heading" class="mt-4">Call us on &nbsp; &nbsp;
-                            <img src="img/WhatsApp_Icon.png" alt="Whatsapp">
-                            <img src="img/web-viber-icon.png" alt="web-viber">
-                            </br>
-                            <span class="blink">+34 602 104 219</span>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- logo and Call us Header Ends -->
-
-            <!-- Navbar Starts -->
-            <nav class="navbar navbar-expand-lg mt-2" id="nav-bar-line">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-expanded="false">
-                                SERVICES
-                            </a>
-                            <div class="dropdown-menu" id="dropdown-list" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Andorra Transfers – Barcelona</a>
-                                <a class="dropdown-item" href="#">Airport Pickup</a>
-                                <a class="dropdown-item" href="#">Barcelona Airport Transfer</a>
-                                <a class="dropdown-item" href="#">PortAventura Transfer</a>
-                                <a class="dropdown-item" href="#">Train and Bus Stations</a>
-                                <a class="dropdown-item" href="#">Taxi Barcelona</a>
-                                <a class="dropdown-item" href="#">Barcelona Transfers To City Centre</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BOOKING</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SITEMAP</a>
-                        </li>
-                    </ul>
-
-                    <form class="form-inline ml-auto" id="nav-search-box">
-
-                        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-                        <div class="input-group mb-2 mr-sm-2">
-                            <input type="search" class="form-control" id="inlineFormInputGroupUsername2"
-                                placeholder="Search">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text" id="nav-search-box-icon"><i class="fas fa-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </nav>
-        </header>
+<?php include "includes/header.php" ?>
 
 
-
-    </header>
 
     <section id="crousel-section">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
@@ -121,14 +10,14 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/cover1.jpg" class="d-block img-fluid w-100" alt="...">
+                    <img src="img/home/cover1.jpg" class="d-block img-fluid w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Air Port Transfer</h1>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/cover2.jpg" class="d-block img-fluid w-100" alt="...">
+                    <img src="img/home/cover2.jpg" class="d-block img-fluid w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Car Hire For The Selective</h1>
                         <p>Some representative placeholder content for the second slide.</p>
@@ -320,7 +209,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 col-11 d-block m-auto">
-                    <img class="img-fluid" src="img/taxiIncludeServices.png" alt="taxi Include Services Image">
+                    <img class="img-fluid" src="img/home/taxiIncludeServices.png" alt="taxi Include Services Image">
                 </div>
             </div>
         </div>
@@ -342,140 +231,5 @@
         </div>
     </section>
 
-    <section id="booking-form-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center mt-5">Booking Form</h1>
-                    <div class="container">
-                        <form class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name">Yout Name*</label>
-                                    <input type="text" class="form-control" id="name"
-                                        required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Your Phone*</label>
-                                    <input type="phone" class="form-control" id="phone"
-                                        required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="start-point">Start Point*</label>
-                                    <input type="text" class="form-control" id="start-point"
-                                        placeholder="Where would you like to be picked up from?" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email">Your Email Address*</label>
-                                    <input type="email" class="form-control" id="email" required>
-                                  </div>
-                                <div class="form-group">
-                                    <label for="passenger">Passenger*</label>
-                                    <select class="form-control" id="passenger" required >
-                                        <option value="select">Select</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="others">Others</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="destination">Destination</label>
-                                    <input type="text" class="form-control" id="destination" placeholder="Where would you like to go?">
-                                  </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group w-100">
-                                    <label for="message">Your Message</label>
-                                    <textarea class="form-control" id="message" rows="3"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-dark">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="upper-footer">
-        <div class="container">
-            <div class="row pt-5">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-10 d-block mb-3">
-                    <h5>Taxi Services Barcelona</h5>
-                    <div class="line"><span class="left-line"></span><span class="right-line"></span></div>
-                    <p>
-                        Do you need a Taxi in Barcelona Spain? It is very safe to take Taxi Services in Barcelona at any
-                        time of day. Including Airport Transfer Guaranteed Lowest Rates.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-10 d-block mb-3">
-                    <h5>Calender</h5>
-                    <div class="line calender-line"><span class="left-line"></span><span class="right-line"></span></div>
-                        <div class="calendar-container">
-
-                        </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-10 d-block mb-3">
-                    <h5>Useful Links</h5>
-                    <div class="line"><span class="left-line"></span><span class="right-line"></span></div>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <a href="./about.html">About Us</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="./booking.html">Booking</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="./contact.html">Contact</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="./index.html">Home</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Services</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="./sitemap.html">Site Map</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-10 d-block mb-3">
-                    <h5>Contact Details</h5>
-                    <div class="line"><span class="left-line"></span><span class="right-line"></span></div>
-                    <ul style="list-style: none;">
-                        <li> <i class="fa fa-map-marker contactDetailFavIcons"></i> &nbsp; &nbsp;  Barcelona, Spain</li>
-                        <li> <i class="fa fa-phone contactDetailFavIcons"></i>  &nbsp; &nbsp; +34 602 104 219</li>
-                        <li> <i class="fa fa-envelope contactDetailFavIcons"></i>  &nbsp;&nbsp; info@taxiservicesbarcelona.com</li>
-                        <li> <i class="fa fa-globe contactDetailFavIcons"></i>  &nbsp; &nbsp; www.taxiservicesbarcelona.com</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <footer id="lower-footer">
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col-sm-6 col-11">
-                    <p style="font-size: 80%;" class="float-sm-left text-center">
-                        Copyright &copy; 2015 Barcelona Taxi Services. All Rights Reserved.
-                    </p>
-                </div>
-                <div class="col-sm-6 col-11">
-                    <p style="font-size: 80%;" class="float-sm-right text-center">
-                        Designed & Developed by Muhammad Umar
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
-
-</html>
+<?php include "includes/bookingForm.php" ?>
+<?php include "includes/footer.php" ?>
